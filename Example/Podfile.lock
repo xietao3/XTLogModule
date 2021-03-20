@@ -1,0 +1,16 @@
+PODS:
+  - XTLogModule (0.1.0)
+
+DEPENDENCIES:
+  - XTLogModule (from `../`)
+
+EXTERNAL SOURCES:
+  XTLogModule:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  XTLogModule: 32088dc484389910efe72135ffac583725b98a4a
+
+PODFILE CHECKSUM: 87bdb6154f479b350056c6c12fbbc35823901359
+
+COCOAPODS: 1.9.3

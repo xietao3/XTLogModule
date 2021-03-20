@@ -1,0 +1,6 @@
+framework module Pods_XTLogModule_Example {
+  umbrella header "Pods-XTLogModule_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "XTLogModule",
+  "version": "0.1.0",
+  "summary": "A short description of XTLogModule.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/xietao3/XTLogModule",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "xietao3": "xietao3@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/xietao3/XTLogModule.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "XTLogModule/Classes/**/*"
+}
