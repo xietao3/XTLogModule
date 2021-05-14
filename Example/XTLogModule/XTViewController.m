@@ -7,7 +7,7 @@
 //
 
 #import "XTViewController.h"
-#import <XTLogModule/XTLogModuleFramework.h>
+#import <XTLogModule/XTLogTool.h>
 //#import <XTLogModuleFramework/XTLogModuleFramework.h>
 @interface XTViewController ()
 

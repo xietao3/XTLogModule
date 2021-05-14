@@ -37,10 +37,13 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		93AEB02F264D69CA00B8C0A7 /* XTLogModuleFrameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 93AEB02E264D69CA00B8C0A7 /* XTLogModuleFrameworkTests.m */; };
-		93AEB031264D69CA00B8C0A7 /* XTLogModuleFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 93AEB021264D69CA00B8C0A7 /* XTLogModuleFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		93AEB04B264D6A4300B8C0A7 /* XTLogTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 93AEB049264D6A4300B8C0A7 /* XTLogTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		93AEB04C264D6A4300B8C0A7 /* XTLogTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 93AEB04A264D6A4300B8C0A7 /* XTLogTool.m */; };
+		933DB56F264E777A000885D4 /* XTLogModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 933DB566264E777A000885D4 /* XTLogModule.framework */; };
+		933DB576264E777A000885D4 /* XTLogModuleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 933DB575264E777A000885D4 /* XTLogModuleTests.m */; };
+		933DB578264E777A000885D4 /* XTLogModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 933DB568264E777A000885D4 /* XTLogModule.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		933DB57B264E777A000885D4 /* XTLogModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 933DB566264E777A000885D4 /* XTLogModule.framework */; };
+		933DB57C264E777A000885D4 /* XTLogModule.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 933DB566264E777A000885D4 /* XTLogModule.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		933DB58A264E77A3000885D4 /* XTLogTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 933DB588264E77A3000885D4 /* XTLogTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		933DB58B264E77A3000885D4 /* XTLogTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 933DB589264E77A3000885D4 /* XTLogTool.m */; };
 		FBEAE98C9046116A1AB2C8A2 /* Pods_XTLogModule_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7303BC92C597252FA5F09C5 /* Pods_XTLogModule_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -52,12 +55,26 @@
 			remoteGlobalIDString = 6003F589195388D20070C39A;
 			remoteInfo = XTLogModule;
 		};
-		93AEB029264D69CA00B8C0A7 /* PBXContainerItemProxy */ = {
+		933DB570264E777A000885D4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 6003F582195388D10070C39A /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 93AEB01E264D69CA00B8C0A7;
-			remoteInfo = XTLogModuleFramework;
+			remoteGlobalIDString = 933DB565264E777A000885D4;
+			remoteInfo = XTLogModule;
+		};
+		933DB572264E777A000885D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6003F582195388D10070C39A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6003F589195388D20070C39A;
+			remoteInfo = XTLogModule_Example;
+		};
+		933DB579264E777A000885D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6003F582195388D10070C39A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 933DB565264E777A000885D4;
+			remoteInfo = XTLogModule;
 		};
 		93AEB02B264D69CA00B8C0A7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -65,13 +82,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = 6003F589195388D20070C39A;
 			remoteInfo = XTLogModule_Example;
-		};
-		93AEB032264D69CA00B8C0A7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6003F582195388D10070C39A /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 93AEB01E264D69CA00B8C0A7;
-			remoteInfo = XTLogModuleFramework;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -82,6 +92,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				933DB57C264E777A000885D4 /* XTLogModule.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -115,14 +126,15 @@
 		64B00BE96584E3171FF8DB25 /* Pods_XTLogModule_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XTLogModule_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		93AEB01F264D69CA00B8C0A7 /* XTLogModuleFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XTLogModuleFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		93AEB021264D69CA00B8C0A7 /* XTLogModuleFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XTLogModuleFramework.h; sourceTree = "<group>"; };
-		93AEB022264D69CA00B8C0A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		933DB566264E777A000885D4 /* XTLogModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XTLogModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		933DB568264E777A000885D4 /* XTLogModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XTLogModule.h; sourceTree = "<group>"; };
+		933DB569264E777A000885D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		933DB56E264E777A000885D4 /* XTLogModuleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XTLogModuleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		933DB575264E777A000885D4 /* XTLogModuleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XTLogModuleTests.m; sourceTree = "<group>"; };
+		933DB577264E777A000885D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		933DB588264E77A3000885D4 /* XTLogTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XTLogTool.h; path = ../../XTLogModule/Classes/XTLogTool.h; sourceTree = "<group>"; };
+		933DB589264E77A3000885D4 /* XTLogTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XTLogTool.m; path = ../../XTLogModule/Classes/XTLogTool.m; sourceTree = "<group>"; };
 		93AEB027264D69CA00B8C0A7 /* XTLogModuleFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XTLogModuleFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		93AEB02E264D69CA00B8C0A7 /* XTLogModuleFrameworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XTLogModuleFrameworkTests.m; sourceTree = "<group>"; };
-		93AEB030264D69CA00B8C0A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		93AEB049264D6A4300B8C0A7 /* XTLogTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XTLogTool.h; path = ../../XTLogModule/Classes/XTLogTool.h; sourceTree = "<group>"; };
-		93AEB04A264D6A4300B8C0A7 /* XTLogTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XTLogTool.m; path = ../../XTLogModule/Classes/XTLogTool.m; sourceTree = "<group>"; };
 		C8333441A90EE760B7C3CAD9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		D9B887AB441C26F51D6681C0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		E5614383E36A3D7EE9318536 /* XTLogModule.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = XTLogModule.podspec; path = ../XTLogModule.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -134,6 +146,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				933DB57B264E777A000885D4 /* XTLogModule.framework in Frameworks */,
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
@@ -152,10 +165,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		93AEB01C264D69CA00B8C0A7 /* Frameworks */ = {
+		933DB563264E777A000885D4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		933DB56B264E777A000885D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				933DB56F264E777A000885D4 /* XTLogModule.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -186,8 +207,8 @@
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for XTLogModule */,
 				6003F5B5195388D20070C39A /* Tests */,
-				93AEB020264D69CA00B8C0A7 /* XTLogModuleFramework */,
-				93AEB02D264D69CA00B8C0A7 /* XTLogModuleFrameworkTests */,
+				933DB567264E777A000885D4 /* XTLogModule */,
+				933DB574264E777A000885D4 /* XTLogModuleTests */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
 				1E045DC2A6AEABE88EB4ABEA /* Pods */,
@@ -199,8 +220,9 @@
 			children = (
 				6003F58A195388D20070C39A /* XTLogModule_Example.app */,
 				6003F5AE195388D20070C39A /* XTLogModule_Tests.xctest */,
-				93AEB01F264D69CA00B8C0A7 /* XTLogModuleFramework.framework */,
 				93AEB027264D69CA00B8C0A7 /* XTLogModuleFrameworkTests.xctest */,
+				933DB566264E777A000885D4 /* XTLogModule.framework */,
+				933DB56E264E777A000885D4 /* XTLogModuleTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -274,35 +296,35 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
-		93AEB020264D69CA00B8C0A7 /* XTLogModuleFramework */ = {
+		933DB567264E777A000885D4 /* XTLogModule */ = {
 			isa = PBXGroup;
 			children = (
-				93AEB021264D69CA00B8C0A7 /* XTLogModuleFramework.h */,
-				93AEB049264D6A4300B8C0A7 /* XTLogTool.h */,
-				93AEB04A264D6A4300B8C0A7 /* XTLogTool.m */,
-				93AEB022264D69CA00B8C0A7 /* Info.plist */,
+				933DB568264E777A000885D4 /* XTLogModule.h */,
+				933DB588264E77A3000885D4 /* XTLogTool.h */,
+				933DB589264E77A3000885D4 /* XTLogTool.m */,
+				933DB569264E777A000885D4 /* Info.plist */,
 			);
-			path = XTLogModuleFramework;
+			path = XTLogModule;
 			sourceTree = "<group>";
 		};
-		93AEB02D264D69CA00B8C0A7 /* XTLogModuleFrameworkTests */ = {
+		933DB574264E777A000885D4 /* XTLogModuleTests */ = {
 			isa = PBXGroup;
 			children = (
-				93AEB02E264D69CA00B8C0A7 /* XTLogModuleFrameworkTests.m */,
-				93AEB030264D69CA00B8C0A7 /* Info.plist */,
+				933DB575264E777A000885D4 /* XTLogModuleTests.m */,
+				933DB577264E777A000885D4 /* Info.plist */,
 			);
-			path = XTLogModuleFrameworkTests;
+			path = XTLogModuleTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		93AEB01A264D69CA00B8C0A7 /* Headers */ = {
+		933DB561264E777A000885D4 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93AEB031264D69CA00B8C0A7 /* XTLogModuleFramework.h in Headers */,
-				93AEB04B264D6A4300B8C0A7 /* XTLogTool.h in Headers */,
+				933DB578264E777A000885D4 /* XTLogModule.h in Headers */,
+				933DB58A264E77A3000885D4 /* XTLogTool.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,7 +345,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				93AEB033264D69CA00B8C0A7 /* PBXTargetDependency */,
+				933DB57A264E777A000885D4 /* PBXTargetDependency */,
 			);
 			name = XTLogModule_Example;
 			productName = XTLogModule;
@@ -349,23 +371,42 @@
 			productReference = 6003F5AE195388D20070C39A /* XTLogModule_Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		93AEB01E264D69CA00B8C0A7 /* XTLogModuleFramework */ = {
+		933DB565264E777A000885D4 /* XTLogModule */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 93AEB03B264D69CA00B8C0A7 /* Build configuration list for PBXNativeTarget "XTLogModuleFramework" */;
+			buildConfigurationList = 933DB57D264E777A000885D4 /* Build configuration list for PBXNativeTarget "XTLogModule" */;
 			buildPhases = (
-				93AEB01A264D69CA00B8C0A7 /* Headers */,
-				93AEB01B264D69CA00B8C0A7 /* Sources */,
-				93AEB01C264D69CA00B8C0A7 /* Frameworks */,
-				93AEB01D264D69CA00B8C0A7 /* Resources */,
+				933DB561264E777A000885D4 /* Headers */,
+				933DB562264E777A000885D4 /* Sources */,
+				933DB563264E777A000885D4 /* Frameworks */,
+				933DB564264E777A000885D4 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = XTLogModuleFramework;
-			productName = XTLogModuleFramework;
-			productReference = 93AEB01F264D69CA00B8C0A7 /* XTLogModuleFramework.framework */;
+			name = XTLogModule;
+			productName = XTLogModule;
+			productReference = 933DB566264E777A000885D4 /* XTLogModule.framework */;
 			productType = "com.apple.product-type.framework";
+		};
+		933DB56D264E777A000885D4 /* XTLogModuleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 933DB580264E777A000885D4 /* Build configuration list for PBXNativeTarget "XTLogModuleTests" */;
+			buildPhases = (
+				933DB56A264E777A000885D4 /* Sources */,
+				933DB56B264E777A000885D4 /* Frameworks */,
+				933DB56C264E777A000885D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				933DB571264E777A000885D4 /* PBXTargetDependency */,
+				933DB573264E777A000885D4 /* PBXTargetDependency */,
+			);
+			name = XTLogModuleTests;
+			productName = XTLogModuleTests;
+			productReference = 933DB56E264E777A000885D4 /* XTLogModuleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		93AEB026264D69CA00B8C0A7 /* XTLogModuleFrameworkTests */ = {
 			isa = PBXNativeTarget;
@@ -378,7 +419,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				93AEB02A264D69CA00B8C0A7 /* PBXTargetDependency */,
 				93AEB02C264D69CA00B8C0A7 /* PBXTargetDependency */,
 			);
 			name = XTLogModuleFrameworkTests;
@@ -399,9 +439,15 @@
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
-					93AEB01E264D69CA00B8C0A7 = {
+					933DB565264E777A000885D4 = {
 						CreatedOnToolsVersion = 12.4;
 						ProvisioningStyle = Automatic;
+					};
+					933DB56D264E777A000885D4 = {
+						CreatedOnToolsVersion = 12.4;
+						DevelopmentTeam = CVQ4KC2R64;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6003F589195388D20070C39A;
 					};
 					93AEB026264D69CA00B8C0A7 = {
 						CreatedOnToolsVersion = 12.4;
@@ -432,9 +478,10 @@
 			targets = (
 				6003F589195388D20070C39A /* XTLogModule_Example */,
 				6003F5AD195388D20070C39A /* XTLogModule_Tests */,
-				93AEB01E264D69CA00B8C0A7 /* XTLogModuleFramework */,
 				93AEB026264D69CA00B8C0A7 /* XTLogModuleFrameworkTests */,
 				93AEB050264D6B0800B8C0A7 /* XTLogModuleAgg */,
+				933DB565264E777A000885D4 /* XTLogModule */,
+				933DB56D264E777A000885D4 /* XTLogModuleTests */,
 			);
 		};
 /* End PBXProject section */
@@ -459,7 +506,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		93AEB01D264D69CA00B8C0A7 /* Resources */ = {
+		933DB564264E777A000885D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		933DB56C264E777A000885D4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -531,7 +585,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "TARGET_NAME=${TARGET_NAME}\nOUTPUT_DIR=${SRCROOT}/../${PROJECT_NAME}/Frameworks/XTLogModule.framework\n\nDEVICE_DIR=${BUILD_ROOT}/${CONFIGURATION}-iphoneos/XTLogModuleFramework.framework\nSIMULATOR_DIR=${BUILD_ROOT}/${CONFIGURATION}-iphonesimulator/XTLogModuleFramework.framework\nif [ -d \"${OUTPUT_DIR}\" ]\nthen\nrm -rf \"${OUTPUT_DIR}\"\nfi\nmkdir -p \"${OUTPUT_DIR}\"\ncp -R \"${DEVICE_DIR}/\" \"${OUTPUT_DIR}/\"\nlipo -create \"${DEVICE_DIR}/XTLogModuleFramework\" \"${SIMULATOR_DIR}/XTLogModuleFramework\" -output \"${OUTPUT_DIR}/XTLogModule\"\nopen \"${OUTPUT_DIR}/..\"\n";
+			shellScript = "TARGET_NAME=${TARGET_NAME}\nOUTPUT_DIR=${SRCROOT}/../${PROJECT_NAME}/Frameworks/XTLogModule.framework\n\nDEVICE_DIR=${BUILD_ROOT}/${CONFIGURATION}-iphoneos/XTLogModule.framework\nSIMULATOR_DIR=${BUILD_ROOT}/${CONFIGURATION}-iphonesimulator/XTLogModule.framework\nif [ -d \"${OUTPUT_DIR}\" ]\nthen\nrm -rf \"${OUTPUT_DIR}\"\nfi\nmkdir -p \"${OUTPUT_DIR}\"\ncp -R \"${DEVICE_DIR}/\" \"${OUTPUT_DIR}/\"\nlipo -create \"${DEVICE_DIR}/XTLogModule\" \"${SIMULATOR_DIR}/XTLogModule\" -output \"${OUTPUT_DIR}/XTLogModule\"\nopen \"${OUTPUT_DIR}/..\"\n";
 		};
 		D5F2A7C6AFB99E2AAA3D3F45 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -576,11 +630,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		93AEB01B264D69CA00B8C0A7 /* Sources */ = {
+		933DB562264E777A000885D4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93AEB04C264D6A4300B8C0A7 /* XTLogTool.m in Sources */,
+				933DB58B264E77A3000885D4 /* XTLogTool.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		933DB56A264E777A000885D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				933DB576264E777A000885D4 /* XTLogModuleTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -588,7 +650,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93AEB02F264D69CA00B8C0A7 /* XTLogModuleFrameworkTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -600,20 +661,25 @@
 			target = 6003F589195388D20070C39A /* XTLogModule_Example */;
 			targetProxy = 6003F5B3195388D20070C39A /* PBXContainerItemProxy */;
 		};
-		93AEB02A264D69CA00B8C0A7 /* PBXTargetDependency */ = {
+		933DB571264E777A000885D4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 93AEB01E264D69CA00B8C0A7 /* XTLogModuleFramework */;
-			targetProxy = 93AEB029264D69CA00B8C0A7 /* PBXContainerItemProxy */;
+			target = 933DB565264E777A000885D4 /* XTLogModule */;
+			targetProxy = 933DB570264E777A000885D4 /* PBXContainerItemProxy */;
+		};
+		933DB573264E777A000885D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6003F589195388D20070C39A /* XTLogModule_Example */;
+			targetProxy = 933DB572264E777A000885D4 /* PBXContainerItemProxy */;
+		};
+		933DB57A264E777A000885D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 933DB565264E777A000885D4 /* XTLogModule */;
+			targetProxy = 933DB579264E777A000885D4 /* PBXContainerItemProxy */;
 		};
 		93AEB02C264D69CA00B8C0A7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 6003F589195388D20070C39A /* XTLogModule_Example */;
 			targetProxy = 93AEB02B264D69CA00B8C0A7 /* PBXContainerItemProxy */;
-		};
-		93AEB033264D69CA00B8C0A7 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 93AEB01E264D69CA00B8C0A7 /* XTLogModuleFramework */;
-			targetProxy = 93AEB032264D69CA00B8C0A7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -800,7 +866,7 @@
 			};
 			name = Release;
 		};
-		93AEB037264D69CA00B8C0A7 /* Debug */ = {
+		933DB57E264E777A000885D4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ANALYZER_NONNULL = YES;
@@ -831,13 +897,13 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = XTLogModuleFramework/Info.plist;
+				INFOPLIST_FILE = XTLogModule/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.xietao.XTLogModuleFramework;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xietao.XTLogModule;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -846,7 +912,7 @@
 			};
 			name = Debug;
 		};
-		93AEB038264D69CA00B8C0A7 /* Release */ = {
+		933DB57F264E777A000885D4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ANALYZER_NONNULL = YES;
@@ -878,18 +944,97 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = XTLogModuleFramework/Info.plist;
+				INFOPLIST_FILE = XTLogModule/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.xietao.XTLogModuleFramework;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xietao.XTLogModule;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		933DB581264E777A000885D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = CVQ4KC2R64;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = XTLogModuleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xietao.XTLogModuleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XTLogModule_Example.app/XTLogModule_Example";
+			};
+			name = Debug;
+		};
+		933DB582264E777A000885D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = CVQ4KC2R64;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = XTLogModuleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xietao.XTLogModuleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XTLogModule_Example.app/XTLogModule_Example";
 			};
 			name = Release;
 		};
@@ -1020,11 +1165,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		93AEB03B264D69CA00B8C0A7 /* Build configuration list for PBXNativeTarget "XTLogModuleFramework" */ = {
+		933DB57D264E777A000885D4 /* Build configuration list for PBXNativeTarget "XTLogModule" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				93AEB037264D69CA00B8C0A7 /* Debug */,
-				93AEB038264D69CA00B8C0A7 /* Release */,
+				933DB57E264E777A000885D4 /* Debug */,
+				933DB57F264E777A000885D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		933DB580264E777A000885D4 /* Build configuration list for PBXNativeTarget "XTLogModuleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				933DB581264E777A000885D4 /* Debug */,
+				933DB582264E777A000885D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

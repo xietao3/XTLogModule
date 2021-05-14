@@ -57,6 +57,16 @@
                ReferencedContainer = "container:XTLogModule.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "933DB56D264E777A000885D4"
+               BuildableName = "XTLogModuleTests.xctest"
+               BlueprintName = "XTLogModuleTests"
+               ReferencedContainer = "container:XTLogModule.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction
