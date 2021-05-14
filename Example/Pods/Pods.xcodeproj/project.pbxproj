@@ -6,29 +6,36 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		FA952BCCE38E07A3F8FDE99B6C3EEF5C /* XTLogModule */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 55268438F867008FDE7810797039DBA3 /* Build configuration list for PBXAggregateTarget "XTLogModule" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = XTLogModule;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
 		0E03C93504FD6C79B470E29B65FEC5AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		47588390E65C001864A39F5A17A32C44 /* XTLogTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FFBF8C6552D9F50663B3599E2050E21 /* XTLogTool.m */; };
 		599BD8CE2C832AF207D036C373F4B91C /* Pods-XTLogModule_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 67A208E3A7F7C46767055F1714538A57 /* Pods-XTLogModule_Example-dummy.m */; };
 		636ACE91E30CAC570610C6F60C5C4281 /* Pods-XTLogModule_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F8B76E8DCB944E18698A9561DCFDC1D6 /* Pods-XTLogModule_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6C92390BFD40CBE1AB73A1E89FB6C621 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		AAA279416093490F18EFB45988DA8F3D /* Pods-XTLogModule_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D03E5AB4BF0B48CD82057309B45FA1B /* Pods-XTLogModule_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C71A501C50A7E5DCC2E682978153B795 /* XTLogTool.h in Headers */ = {isa = PBXBuildFile; fileRef = FB780B926C817CA19A4B9FAEE1B2CD40 /* XTLogTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D8AC5011D5C89618C490C8224C594C1D /* Pods-XTLogModule_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 494E560BDFE1D33788FE6E826D8BB098 /* Pods-XTLogModule_Tests-dummy.m */; };
-		DE55BFF7EEC9637D275951F0357E6601 /* XTLogModule-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 62EEB7A69DDCC095036DAF5999B9B3C5 /* XTLogModule-dummy.m */; };
-		E6768A2CCF7443863C0E61040E6FE81A /* XTLogModule-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F7B7B4067C5E85B515B6B457686A561 /* XTLogModule-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FE3D3E085B31975082F9D7DF1D5B36E0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		53F2EF7E8AF42EE6F318AC47401AE89D /* PBXContainerItemProxy */ = {
+		6F272D57AED577F918858A1BEAD93C2B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 50CE2C2433BAFBAA19D0F7D60B15A13A;
 			remoteInfo = "Pods-XTLogModule_Example";
 		};
-		8CDAEDC57C3FE75C2FE781E1DED0FBE2 /* PBXContainerItemProxy */ = {
+		A2859DA037AABF3BBB2ED7F6F5A14A10 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -39,39 +46,32 @@
 
 /* Begin PBXFileReference section */
 		112B42935AAAAB29889241AEE509C815 /* Pods-XTLogModule_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XTLogModule_Example.modulemap"; sourceTree = "<group>"; };
-		1615F59A762141DFF598B59F0668D6A9 /* XTLogModule-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XTLogModule-Info.plist"; sourceTree = "<group>"; };
 		1CFE454F9AAE4A4BF93556BC44FE07BB /* Pods-XTLogModule_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XTLogModule_Example-frameworks.sh"; sourceTree = "<group>"; };
+		1F6D452216139BA77ECC618AA1D59917 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		26D3DA8319AE83ED8F9E6B916E985D11 /* Pods-XTLogModule_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XTLogModule_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		2B62C0AAA053FB3A29EABAC5E3B46B54 /* Pods-XTLogModule_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XTLogModule_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		2BBB362F245A6490DF566C59F17E04A9 /* Pods_XTLogModule_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XTLogModule_Tests.framework; path = "Pods-XTLogModule_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F97C8A1F6D171D2A0A95DDF4345701A /* Pods-XTLogModule_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XTLogModule_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		41CA6A0588844DB49A01CAAD36D8D290 /* XTLogModule.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = XTLogModule.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		494E560BDFE1D33788FE6E826D8BB098 /* Pods-XTLogModule_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XTLogModule_Tests-dummy.m"; sourceTree = "<group>"; };
 		55DE9EE342D6F96FBDFFE1BD04BCB605 /* Pods-XTLogModule_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XTLogModule_Tests.modulemap"; sourceTree = "<group>"; };
 		5D28A0126D1F07A1D33DE2E9582EF4DF /* Pods-XTLogModule_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XTLogModule_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		5F7B7B4067C5E85B515B6B457686A561 /* XTLogModule-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XTLogModule-umbrella.h"; sourceTree = "<group>"; };
 		618FD1EC98AC5660213C63C895A9F306 /* Pods-XTLogModule_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XTLogModule_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		62EEB7A69DDCC095036DAF5999B9B3C5 /* XTLogModule-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XTLogModule-dummy.m"; sourceTree = "<group>"; };
 		67A208E3A7F7C46767055F1714538A57 /* Pods-XTLogModule_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XTLogModule_Example-dummy.m"; sourceTree = "<group>"; };
+		6CECC33EBE95E7E3F884E3D62B3BDFF8 /* XTLogModule.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XTLogModule.debug.xcconfig; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		794B860003BA0BF532864C580D9149A3 /* Pods-XTLogModule_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XTLogModule_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		7FFBF8C6552D9F50663B3599E2050E21 /* XTLogTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XTLogTool.m; path = XTLogModule/Classes/XTLogTool.m; sourceTree = "<group>"; };
 		84B0B893BE87B2D18434A444BB5B7D11 /* Pods-XTLogModule_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XTLogModule_Tests-Info.plist"; sourceTree = "<group>"; };
 		8D03E5AB4BF0B48CD82057309B45FA1B /* Pods-XTLogModule_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XTLogModule_Tests-umbrella.h"; sourceTree = "<group>"; };
 		92663B0CF6671B4AFF76468CE41ED654 /* Pods_XTLogModule_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XTLogModule_Example.framework; path = "Pods-XTLogModule_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A4C1C15C343D6BDC056AF68CEB010F50 /* XTLogModule.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XTLogModule.release.xcconfig; sourceTree = "<group>"; };
-		A604645E949A86BF19F79AFD840BB00E /* XTLogModule.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XTLogModule.modulemap; sourceTree = "<group>"; };
-		AAF9B9EA612AB083F1E15B9222B6B4D6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		B1912027770A5E5D7738C788A80E5CD1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		B7E7922D5FD455E25E8C5042DC6AF7CF /* Pods-XTLogModule_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XTLogModule_Example.release.xcconfig"; sourceTree = "<group>"; };
-		B9D29D31BD7048B0DDD0479BC4B31B08 /* XTLogModule.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = XTLogModule.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		BEABC14F5DC6AE5AA8BDB0C5CB096125 /* XTLogModule-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XTLogModule-prefix.pch"; sourceTree = "<group>"; };
 		C527FC802D7160CC1DB03632C0B3D496 /* Pods-XTLogModule_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XTLogModule_Example-Info.plist"; sourceTree = "<group>"; };
 		C81717EB2F3F24FBAE87CF05F4770C40 /* Pods-XTLogModule_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XTLogModule_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		E9AC6782150B0D6A91E09F376AC96FF9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		EAC0AA47BB81B2EF240D1C0A1AF13C6B /* XTLogModule.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XTLogModule.debug.xcconfig; sourceTree = "<group>"; };
-		F3F77253EE5D795138DC07015E4231D1 /* XTLogModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XTLogModule.framework; path = XTLogModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB24AE454F7C1ECE7699E4892C0905C1 /* XTLogModuleFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XTLogModuleFramework.framework; path = XTLogModule/Frameworks/XTLogModuleFramework.framework; sourceTree = "<group>"; };
 		F8B76E8DCB944E18698A9561DCFDC1D6 /* Pods-XTLogModule_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XTLogModule_Example-umbrella.h"; sourceTree = "<group>"; };
-		FB780B926C817CA19A4B9FAEE1B2CD40 /* XTLogTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XTLogTool.h; path = XTLogModule/Classes/XTLogTool.h; sourceTree = "<group>"; };
+		FBE20F42EC3119C3FC92BB2D59A55583 /* XTLogModule.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XTLogModule.release.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,14 +80,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				FE3D3E085B31975082F9D7DF1D5B36E0 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6E8EA5E7CE3EBC32B924C13A427DF6A1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6C92390BFD40CBE1AB73A1E89FB6C621 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -118,37 +110,40 @@
 			path = "Target Support Files/Pods-XTLogModule_Tests";
 			sourceTree = "<group>";
 		};
-		1A0A637138C4BB2D4D08C4474685EAD7 /* Pod */ = {
+		2DF5A72D797B2B2834591337C438A06A /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				AAF9B9EA612AB083F1E15B9222B6B4D6 /* LICENSE */,
-				E9AC6782150B0D6A91E09F376AC96FF9 /* README.md */,
-				B9D29D31BD7048B0DDD0479BC4B31B08 /* XTLogModule.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		4CCB630F6BFDE16747C9FBA38E88F207 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				778D085355D019BA8F410F4A76BB66BE /* XTLogModule */,
+				4181584B52C7C3D227AFFFBCFEC69B3C /* XTLogModule */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		5394554C503D08AE36575C735B7DAE1F /* Support Files */ = {
+		4181584B52C7C3D227AFFFBCFEC69B3C /* XTLogModule */ = {
 			isa = PBXGroup;
 			children = (
-				A604645E949A86BF19F79AFD840BB00E /* XTLogModule.modulemap */,
-				62EEB7A69DDCC095036DAF5999B9B3C5 /* XTLogModule-dummy.m */,
-				1615F59A762141DFF598B59F0668D6A9 /* XTLogModule-Info.plist */,
-				BEABC14F5DC6AE5AA8BDB0C5CB096125 /* XTLogModule-prefix.pch */,
-				5F7B7B4067C5E85B515B6B457686A561 /* XTLogModule-umbrella.h */,
-				EAC0AA47BB81B2EF240D1C0A1AF13C6B /* XTLogModule.debug.xcconfig */,
-				A4C1C15C343D6BDC056AF68CEB010F50 /* XTLogModule.release.xcconfig */,
+				541FD8CB61F20D84B12A87897806ADE5 /* fw */,
+				65ABD590ACFDF7B2850CF21A220ABF6B /* Pod */,
+				8CF1A0700A16AA1E81A6C51182407649 /* Support Files */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/XTLogModule";
+			name = XTLogModule;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		4A86BC8B1E350DAABA644312DF32A8C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92663B0CF6671B4AFF76468CE41ED654 /* Pods_XTLogModule_Example.framework */,
+				2BBB362F245A6490DF566C59F17E04A9 /* Pods_XTLogModule_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		541FD8CB61F20D84B12A87897806ADE5 /* fw */ = {
+			isa = PBXGroup;
+			children = (
+				D7FB43F6FB882FD4A1AC70D8C3037CBD /* Frameworks */,
+			);
+			name = fw;
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -159,16 +154,24 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		778D085355D019BA8F410F4A76BB66BE /* XTLogModule */ = {
+		65ABD590ACFDF7B2850CF21A220ABF6B /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				FB780B926C817CA19A4B9FAEE1B2CD40 /* XTLogTool.h */,
-				7FFBF8C6552D9F50663B3599E2050E21 /* XTLogTool.m */,
-				1A0A637138C4BB2D4D08C4474685EAD7 /* Pod */,
-				5394554C503D08AE36575C735B7DAE1F /* Support Files */,
+				B1912027770A5E5D7738C788A80E5CD1 /* LICENSE */,
+				1F6D452216139BA77ECC618AA1D59917 /* README.md */,
+				41CA6A0588844DB49A01CAAD36D8D290 /* XTLogModule.podspec */,
 			);
-			name = XTLogModule;
-			path = ../..;
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		8CF1A0700A16AA1E81A6C51182407649 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6CECC33EBE95E7E3F884E3D62B3BDFF8 /* XTLogModule.debug.xcconfig */,
+				FBE20F42EC3119C3FC92BB2D59A55583 /* XTLogModule.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/XTLogModule";
 			sourceTree = "<group>";
 		};
 		B6FFCF9AEDA6C4F721F62F29DB2E305E /* Pods-XTLogModule_Example */ = {
@@ -188,23 +191,13 @@
 			path = "Target Support Files/Pods-XTLogModule_Example";
 			sourceTree = "<group>";
 		};
-		BC453F018EECB58E6599B985AD0D9943 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				92663B0CF6671B4AFF76468CE41ED654 /* Pods_XTLogModule_Example.framework */,
-				2BBB362F245A6490DF566C59F17E04A9 /* Pods_XTLogModule_Tests.framework */,
-				F3F77253EE5D795138DC07015E4231D1 /* XTLogModule.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				4CCB630F6BFDE16747C9FBA38E88F207 /* Development Pods */,
+				2DF5A72D797B2B2834591337C438A06A /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				BC453F018EECB58E6599B985AD0D9943 /* Products */,
+				4A86BC8B1E350DAABA644312DF32A8C6 /* Products */,
 				F96D1AF34A1DA53C1AF8C26B52C6A170 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -213,6 +206,14 @@
 			isa = PBXGroup;
 			children = (
 				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D7FB43F6FB882FD4A1AC70D8C3037CBD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EB24AE454F7C1ECE7699E4892C0905C1 /* XTLogModuleFramework.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -229,15 +230,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		455626D2A8260A0B3908C85E7D23E8EC /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E6768A2CCF7443863C0E61040E6FE81A /* XTLogModule-umbrella.h in Headers */,
-				C71A501C50A7E5DCC2E682978153B795 /* XTLogTool.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		C5D5950EF5544EFA351419BD447B9F01 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -269,7 +261,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				EE829E9ED101BAB717849D1B1B15FD19 /* PBXTargetDependency */,
+				E0F7227FFC987F64948CF2A51E914790 /* PBXTargetDependency */,
 			);
 			name = "Pods-XTLogModule_Example";
 			productName = "Pods-XTLogModule_Example";
@@ -288,29 +280,11 @@
 			buildRules = (
 			);
 			dependencies = (
-				E9BEDEFC7E454474B7DDB3DA7D0D73CF /* PBXTargetDependency */,
+				F699AE606A0E06AE215864DB8F72E487 /* PBXTargetDependency */,
 			);
 			name = "Pods-XTLogModule_Tests";
 			productName = "Pods-XTLogModule_Tests";
 			productReference = 2BBB362F245A6490DF566C59F17E04A9 /* Pods_XTLogModule_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		FA952BCCE38E07A3F8FDE99B6C3EEF5C /* XTLogModule */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 94CF57AA4A1733B5BDEC0C4B82911F5F /* Build configuration list for PBXNativeTarget "XTLogModule" */;
-			buildPhases = (
-				455626D2A8260A0B3908C85E7D23E8EC /* Headers */,
-				BBDBA65DFF35646192A7546B6D1485CB /* Sources */,
-				6E8EA5E7CE3EBC32B924C13A427DF6A1 /* Frameworks */,
-				AFA5D01E2584F0CFBE71B0E00336D247 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = XTLogModule;
-			productName = XTLogModule;
-			productReference = F3F77253EE5D795138DC07015E4231D1 /* XTLogModule.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -331,7 +305,7 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = BC453F018EECB58E6599B985AD0D9943 /* Products */;
+			productRefGroup = 4A86BC8B1E350DAABA644312DF32A8C6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -357,13 +331,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AFA5D01E2584F0CFBE71B0E00336D247 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -383,29 +350,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BBDBA65DFF35646192A7546B6D1485CB /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DE55BFF7EEC9637D275951F0357E6601 /* XTLogModule-dummy.m in Sources */,
-				47588390E65C001864A39F5A17A32C44 /* XTLogTool.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		E9BEDEFC7E454474B7DDB3DA7D0D73CF /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-XTLogModule_Example";
-			target = 50CE2C2433BAFBAA19D0F7D60B15A13A /* Pods-XTLogModule_Example */;
-			targetProxy = 53F2EF7E8AF42EE6F318AC47401AE89D /* PBXContainerItemProxy */;
-		};
-		EE829E9ED101BAB717849D1B1B15FD19 /* PBXTargetDependency */ = {
+		E0F7227FFC987F64948CF2A51E914790 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = XTLogModule;
 			target = FA952BCCE38E07A3F8FDE99B6C3EEF5C /* XTLogModule */;
-			targetProxy = 8CDAEDC57C3FE75C2FE781E1DED0FBE2 /* PBXContainerItemProxy */;
+			targetProxy = A2859DA037AABF3BBB2ED7F6F5A14A10 /* PBXContainerItemProxy */;
+		};
+		F699AE606A0E06AE215864DB8F72E487 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-XTLogModule_Example";
+			target = 50CE2C2433BAFBAA19D0F7D60B15A13A /* Pods-XTLogModule_Example */;
+			targetProxy = 6F272D57AED577F918858A1BEAD93C2B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -442,34 +400,17 @@
 			};
 			name = Debug;
 		};
-		23DCA39A63F42070D57364C8C6F0FD93 /* Release */ = {
+		0D25462444F5777D0801FF0D38E00710 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A4C1C15C343D6BDC056AF68CEB010F50 /* XTLogModule.release.xcconfig */;
+			baseConfigurationReference = FBE20F42EC3119C3FC92BB2D59A55583 /* XTLogModule.release.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/XTLogModule/XTLogModule-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/XTLogModule/XTLogModule-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/XTLogModule/XTLogModule.modulemap";
-				PRODUCT_MODULE_NAME = XTLogModule;
-				PRODUCT_NAME = XTLogModule;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -539,33 +480,16 @@
 			};
 			name = Debug;
 		};
-		8CA1DABD199FBBA49E8FE53116CA4A55 /* Debug */ = {
+		4FBDA17810B8683360B3E81F49F185CD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EAC0AA47BB81B2EF240D1C0A1AF13C6B /* XTLogModule.debug.xcconfig */;
+			baseConfigurationReference = 6CECC33EBE95E7E3F884E3D62B3BDFF8 /* XTLogModule.debug.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/XTLogModule/XTLogModule-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/XTLogModule/XTLogModule-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/XTLogModule/XTLogModule.modulemap";
-				PRODUCT_MODULE_NAME = XTLogModule;
-				PRODUCT_NAME = XTLogModule;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
@@ -741,11 +665,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		94CF57AA4A1733B5BDEC0C4B82911F5F /* Build configuration list for PBXNativeTarget "XTLogModule" */ = {
+		55268438F867008FDE7810797039DBA3 /* Build configuration list for PBXAggregateTarget "XTLogModule" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8CA1DABD199FBBA49E8FE53116CA4A55 /* Debug */,
-				23DCA39A63F42070D57364C8C6F0FD93 /* Release */,
+				4FBDA17810B8683360B3E81F49F185CD /* Debug */,
+				0D25462444F5777D0801FF0D38E00710 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

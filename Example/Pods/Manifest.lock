@@ -1,16 +1,16 @@
 PODS:
-  - XTLogModule (0.1.0)
+  - XTLogModule/fw (0.1.0)
 
 DEPENDENCIES:
-  - XTLogModule (from `../`)
+  - XTLogModule/fw (from `../`)
 
 EXTERNAL SOURCES:
   XTLogModule:
     :path: "../"
 
 SPEC CHECKSUMS:
-  XTLogModule: ce5bfb8bbcfb1bf3a4767325894180b3e583c030
+  XTLogModule: cc978211af9a6d0de3f413874d4a8c0054fa57d7
 
-PODFILE CHECKSUM: 87bdb6154f479b350056c6c12fbbc35823901359
+PODFILE CHECKSUM: d0243d536ed10671d5ca943a8c9e91e7bae1f5cc
 
 COCOAPODS: 1.10.1

@@ -1,0 +1,6 @@
+framework module XTLogModuleFramework {
+  umbrella header "XTLogModuleFramework.h"
+
+  export *
+  module * { export * }
+}

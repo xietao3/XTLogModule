@@ -7,7 +7,8 @@
 //
 
 #import "XTViewController.h"
-
+#import <XTLogModuleFramework/XTLogModuleFramework.h>
+//#import <XTLogModuleFramework/XTLogModuleFramework.h>
 @interface XTViewController ()
 
 @end
@@ -17,6 +18,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    [XTLogTool logString:@"123"];
 	// Do any additional setup after loading the view, typically from a nib.
 }
 

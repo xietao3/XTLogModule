@@ -18,5 +18,14 @@
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "XTLogModule/Classes/*"
+  "subspecs": [
+    {
+      "name": "sc",
+      "source_files": "XTLogModule/Classes/*"
+    },
+    {
+      "name": "fw",
+      "vendored_frameworks": "XTLogModule/Frameworks/*"
+    }
+  ]
 }
