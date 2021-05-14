@@ -483,11 +483,11 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-XTLogModule_Example/Pods-XTLogModule_Example-frameworks.sh",
-				"${PODS_ROOT}/../../XTLogModule/Frameworks/XTLogModuleFramework.framework",
+				"${PODS_ROOT}/../../XTLogModule/Frameworks/XTLogModule.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XTLogModuleFramework.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XTLogModule.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -531,7 +531,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "TARGET_NAME=${TARGET_NAME}\nOUTPUT_DIR=${SRCROOT}/../${PROJECT_NAME}/Frameworks/XTLogModuleFramework.framework\n\nDEVICE_DIR=${BUILD_ROOT}/${CONFIGURATION}-iphoneos/XTLogModuleFramework.framework\nSIMULATOR_DIR=${BUILD_ROOT}/${CONFIGURATION}-iphonesimulator/XTLogModuleFramework.framework\nif [ -d \"${OUTPUT_DIR}\" ]\nthen\nrm -rf \"${OUTPUT_DIR}\"\nfi\nmkdir -p \"${OUTPUT_DIR}\"\ncp -R \"${DEVICE_DIR}/\" \"${OUTPUT_DIR}/\"\nlipo -create \"${DEVICE_DIR}/XTLogModuleFramework\" \"${SIMULATOR_DIR}/XTLogModuleFramework\" -output \"${OUTPUT_DIR}/XTLogModuleFramework\"\nopen \"${OUTPUT_DIR}/..\"\n";
+			shellScript = "TARGET_NAME=${TARGET_NAME}\nOUTPUT_DIR=${SRCROOT}/../${PROJECT_NAME}/Frameworks/XTLogModule.framework\n\nDEVICE_DIR=${BUILD_ROOT}/${CONFIGURATION}-iphoneos/XTLogModuleFramework.framework\nSIMULATOR_DIR=${BUILD_ROOT}/${CONFIGURATION}-iphonesimulator/XTLogModuleFramework.framework\nif [ -d \"${OUTPUT_DIR}\" ]\nthen\nrm -rf \"${OUTPUT_DIR}\"\nfi\nmkdir -p \"${OUTPUT_DIR}\"\ncp -R \"${DEVICE_DIR}/\" \"${OUTPUT_DIR}/\"\nlipo -create \"${DEVICE_DIR}/XTLogModuleFramework\" \"${SIMULATOR_DIR}/XTLogModuleFramework\" -output \"${OUTPUT_DIR}/XTLogModule\"\nopen \"${OUTPUT_DIR}/..\"\n";
 		};
 		D5F2A7C6AFB99E2AAA3D3F45 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;

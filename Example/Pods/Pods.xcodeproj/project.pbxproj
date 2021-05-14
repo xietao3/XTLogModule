@@ -69,7 +69,7 @@
 		B7E7922D5FD455E25E8C5042DC6AF7CF /* Pods-XTLogModule_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XTLogModule_Example.release.xcconfig"; sourceTree = "<group>"; };
 		C527FC802D7160CC1DB03632C0B3D496 /* Pods-XTLogModule_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XTLogModule_Example-Info.plist"; sourceTree = "<group>"; };
 		C81717EB2F3F24FBAE87CF05F4770C40 /* Pods-XTLogModule_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XTLogModule_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		EB24AE454F7C1ECE7699E4892C0905C1 /* XTLogModuleFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XTLogModuleFramework.framework; path = XTLogModule/Frameworks/XTLogModuleFramework.framework; sourceTree = "<group>"; };
+		D0A62703F69F904E33CC085FF1FC58E7 /* XTLogModule.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XTLogModule.framework; path = XTLogModule/Frameworks/XTLogModule.framework; sourceTree = "<group>"; };
 		F8B76E8DCB944E18698A9561DCFDC1D6 /* Pods-XTLogModule_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XTLogModule_Example-umbrella.h"; sourceTree = "<group>"; };
 		FBE20F42EC3119C3FC92BB2D59A55583 /* XTLogModule.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XTLogModule.release.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -138,10 +138,18 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		4C66F6DC2DB2B7FF6027E92A5D92C4A5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D0A62703F69F904E33CC085FF1FC58E7 /* XTLogModule.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		541FD8CB61F20D84B12A87897806ADE5 /* fw */ = {
 			isa = PBXGroup;
 			children = (
-				D7FB43F6FB882FD4A1AC70D8C3037CBD /* Frameworks */,
+				4C66F6DC2DB2B7FF6027E92A5D92C4A5 /* Frameworks */,
 			);
 			name = fw;
 			sourceTree = "<group>";
@@ -206,14 +214,6 @@
 			isa = PBXGroup;
 			children = (
 				578452D2E740E91742655AC8F1636D1F /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		D7FB43F6FB882FD4A1AC70D8C3037CBD /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				EB24AE454F7C1ECE7699E4892C0905C1 /* XTLogModuleFramework.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
